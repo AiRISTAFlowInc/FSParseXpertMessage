@@ -1,0 +1,77 @@
+{
+  "name": "Parse Xpert Message",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A2: Parse Xpert Message",
+  "description": "Parses Xpert Message for later use",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/ParseXpertMessage",
+  "input": [
+    {
+      "name": "XpertMessage",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "DeviceMAC",
+      "type": "string"
+    },
+    {
+      "name": "Timestamp",
+      "type": "string"
+    },
+    {
+      "name": "DeviceLogId",
+      "type": "string"
+    },
+    {
+      "name": "StatusReportReason",
+      "type": "string"
+    },
+    {
+      "name": "BatteryLevel",
+      "type": "string"
+    },
+    {
+      "name": "Temperature",
+      "type": "string"
+    },
+    {
+      "name": "Humidity",
+      "type": "string"
+    },
+    {
+      "name": "MapId",
+      "type": "string"
+    },
+    {
+      "name": "X",
+      "type": "string"
+    },
+    {
+      "name": "Y",
+      "type": "string"
+    },
+    {
+      "name": "Zone",
+      "type": "array"
+    },
+    {
+      "name": "GeoLattitude",
+      "type": "string"
+    },
+    {
+      "name": "GeoLongitude",
+      "type": "string"
+    },
+    {
+      "name": "ItemId",
+      "type": "string"
+    },
+    {
+      "name": "DisplayName",
+      "type": "string"
+    }
+  ]
+}
